@@ -1,5 +1,5 @@
 {
-    "name": "laravel-admin-ext/echarts",
+    "name": "blackks/laravel-admin-ext-echarts",
     "description": "基于laravel-admin的echarts图表",
     "type": "library",
     "keywords": ["laravel-admin", "图表", "echarts"],
