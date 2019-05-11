@@ -1,0 +1,33 @@
+{
+    "name": "laravel-admin-ext/echarts",
+    "description": "基于laravel-admin的echarts图表",
+    "type": "library",
+    "keywords": ["laravel-admin", "图表", "echarts"],
+    "homepage": "https://github.com/blackks/laravel-admin-ext-echarts",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kaishao",
+            "email": "554424141@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Encore\\ECharts\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Encore\\ECharts\\EChartsServiceProvider"
+            ]
+        }
+    }
+}
