@@ -3,7 +3,7 @@
     "description": "基于laravel-admin的echarts图表",
     "type": "library",
     "keywords": ["laravel-admin", "图表", "echarts"],
-    "homepage": "https://github.com/blackks/laravel-admin-ext-echarts",
+    "homepage": "https://github.com/blackks/laravel-echarts",
     "license": "MIT",
     "authors": [
         {
